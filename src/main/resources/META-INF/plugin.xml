@@ -1,0 +1,33 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>io.github.oluckyo.safe-project-close</id>
+
+    <!-- Public plugin name should be written in Title Case.
+     Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>Safe Project Close</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor>OLuckyO</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        Prevents accidental project-window closure when several projects are open.<br><br>
+        Before a non-last project window closes, the plugin displays a confirmation dialog
+        containing the project name. Choosing Cancel vetoes the close operation.<br><br>
+        Supports regular IntelliJ Platform IDE windows and Remote Development / Split Mode.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>Confirm closing any non-last project window.</li>
+            <li>Support Remote Development / Split Mode.</li>
+            <li>Provide English and Simplified Chinese UI text.</li>
+        </ul>
+    ]]></change-notes>
+
+    <content>
+        <module name="safe.project.close.frontend" loading="required"/>
+    </content>
+</idea-plugin>
