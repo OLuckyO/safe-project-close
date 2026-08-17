@@ -2,6 +2,10 @@
 
 # Safe Project Close Changelog
 
+## [1.0.1] - 2026-08-17
+
+- Clarify the Remote Development use case in the plugin description.
+
 ## [1.0.0] - 2026-08-17
 
 - Confirm closing any non-last project window.

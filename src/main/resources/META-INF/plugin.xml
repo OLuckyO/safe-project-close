@@ -22,9 +22,7 @@
 
     <change-notes><![CDATA[
         <ul>
-            <li>Confirm closing any non-last project window.</li>
-            <li>Support Remote Development / Split Mode.</li>
-            <li>Provide English and Simplified Chinese UI text.</li>
+            <li>Clarify the Remote Development use case in the plugin description.</li>
         </ul>
     ]]></change-notes>
 
