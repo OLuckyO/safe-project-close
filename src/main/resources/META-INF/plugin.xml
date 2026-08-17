@@ -13,10 +13,11 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Prevents accidental project-window closure when several projects are open.<br><br>
-        Before a non-last project window closes, the plugin displays a confirmation dialog
-        containing the project name. Choosing Cancel vetoes the close operation.<br><br>
-        Supports regular IntelliJ Platform IDE windows and Remote Development / Split Mode.
+        Prevents accidental project-window closure in JetBrains Remote Development sessions.<br><br>
+        When multiple projects are open on the same remote backend, closing a non-last project window
+        may not trigger the IDE's built-in confirmation. This plugin displays a confirmation dialog with
+        the project name, allowing you to close the project or cancel the operation.<br><br>
+        Also works in regular IntelliJ Platform IDE windows. Supports Remote Development / Split Mode.
     ]]></description>
 
     <change-notes><![CDATA[
